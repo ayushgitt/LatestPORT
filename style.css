@@ -889,14 +889,23 @@ footer{
     }
     .hero-vid-box{
         height: 200px;
-        top: 5%;
-        right: 5%;
+        top: 3%;
+        right: 4rem;
     }
     .card video{
         width: 100%;
     }
+    .card:nth-child(2) h1 {
+        margin-bottom: 45%;
+    }
+    .card:nth-child(2) img {
+        height: 60%;
+    } 
+    .card:nth-child(1) h1 {
+        margin-bottom: 30%;
+    }    
     .my-project{
-        margin-bottom: 600px;
+        margin-bottom: 50rem;
     }
     .project-card{
         flex-direction: column;
@@ -904,13 +913,17 @@ footer{
         gap: 30px;
     }
     .project-info{
-        width: 85%;
+        width: 80%;
     }
     .project-info h1{
         text-wrap: nowrap;
+        font-size: 1.5rem;
     }
     .project-info p{
-        max-width: 300px;
+        min-width: 250px;
+    }
+    .project-info button{
+        bottom: -2rem;
     }
     .designer{
         left: 18%;
@@ -924,11 +937,23 @@ footer{
         margin-bottom: 0;
         margin-top: 70px;
     }
+    .skills-section .section-tittle{
+        margin-top: 10%;
+    }
+    .designer{
+        top: 12rem;
+    }
+    .coder{
+        top: 29rem;
+    }
     .slider{
-        bottom: 0;
+        bottom: -16%;
     }
     .slider img{
         width: 60%;
+    }
+    .skills-image{
+        bottom: 20px;
     }
     .contact-section{
         flex-direction: column;
@@ -940,7 +965,7 @@ footer{
         left: 25%;
     }
     footer h1{
-        font-size: 1px;
+        font-size: 9px;
     }
     .project-vidbox{
         min-width: 200px;
@@ -948,6 +973,7 @@ footer{
 
     .contact-box button{
         bottom: 15%;
+        left: 73px;
     }
     .menu-icon{
 
