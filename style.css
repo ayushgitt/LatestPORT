@@ -15,7 +15,87 @@ html{
     font-size: 35px;
     cursor: pointer;
     display: none;
+
+    .sidebar{
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 70%;
+        width: 0;
+        height: 100vh;
+        background-color: #000000b8;
+        backdrop-filter: blur(10px);
+        z-index: 9999;
+        box-shadow: 0 0 20px rgba(211,211,211,0.411);
+        border-bottom-left-radius: 70%;
+        opacity: 0;
+      
+        
+        
+
+        ul{
+            padding-left: 20px;
+
+            li{
+                list-style: none;
+                margin-bottom: 40px;
+                margin-top: 20px;
+                margin-left: 10px;
+                
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-style: 30px;
+                    font-weight: 700;
+                    
+                    text-shadow: 0 0 15px rgbs(128,128,128,0.256);
+                }
+            }
+        }
+
+        .socials-icons{
+            padding-left: 20px;
+            margin-top: 60px;
+            text-wrap: nowrap;
+
+            a{
+                font-size: 35px;
+                padding: 5px 5px;
+                cursor: pointer;
+                color: lightgray;
+            }
+        }
+
+        
+    }
+    .close-icon{
+        font-size: 50px;
+        color: lightgray;
+        padding-left: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        z-index: 99999;
+        
+    }
+
+   .open-sidebar{
+        animation: openSidebarAnimation 1.5s forwards;
+    }
+
 }
+
+ @keyframes openSidebarAnimation {
+        to{
+            width: 80%;
+            opacity: 1;
+            bottom: 0;
+            border-radius:12px;
+            
+        }
+
+        
+    }
 .container{
     position: relative;
     width: 100%;
@@ -366,7 +446,7 @@ header ul{
     width: 60%;
     height: 150vh;
     margin-top: 200px;
-    margin-bottom: 600px;
+    margin-bottom: 400px;
 
 }
 .project-card{
@@ -805,7 +885,7 @@ footer{
         margin-top: 5%;
     }
     .my-projects{
-        margin-bottom: 900px;
+        margin-bottom: 60px;
     }
     .project-vidbox video{
         width: 400px;
@@ -857,6 +937,7 @@ footer{
     }
     header ul{
         display: none;
+        box-shadow: none;
     }
     header .box-icons{
         display:none;
@@ -981,9 +1062,23 @@ footer{
 
 
         .social-icons{
-            margin-top: -120px;
+            margin-top: -100px;
+            background-color: inherit;
             
         }
+
+        
+        ul{
+            display:inline;
+            background-color: inherit;
+            /* opacity: 0.22; */
+
+            li{
+                z-index: 9999;
+
+            }
+        }
+        
     }
 
 }
