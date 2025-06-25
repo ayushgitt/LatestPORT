@@ -1,13 +1,14 @@
 const video1=document.getElementById("projectvideo1");
 const video2=document.getElementById('projectvideo2');
 const video3=document.getElementById('projectvideo3');
+const video4=document.getElementById('projectvideo4');
 
 const sidebar= document.querySelector('.sidebar');
 const menu= document.querySelector('.menu-icon');
 const closeIcon = document.querySelector('.close-icon');
 
 
-const videos=[video1,video2,video3];
+const videos=[video1,video2,video3,video4];
 
 videos.forEach(function(video){
     video.addEventListener('mouseover',function(){

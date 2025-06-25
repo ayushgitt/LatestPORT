@@ -446,7 +446,7 @@ header ul{
     width: 60%;
     height: 150vh;
     margin-top: 200px;
-    margin-bottom: 400px;
+    margin-bottom: 780px;
 
 }
 .project-card{
@@ -986,7 +986,7 @@ footer{
         margin-bottom: 30%;
     }    
     .my-project{
-        margin-bottom: 50rem;
+        margin-bottom: 83rem;
     }
     .project-card{
         flex-direction: column;
@@ -1026,9 +1026,10 @@ footer{
     }
     .coder{
         top: 29rem;
+      
     }
     .slider{
-        bottom: -16%;
+        bottom: -20%;
     }
     .slider img{
         width: 60%;
@@ -1053,7 +1054,7 @@ footer{
     }
 
     .contact-box button{
-        bottom: 15%;
+        bottom: 12%;
         left: 73px;
     }
     .menu-icon{
