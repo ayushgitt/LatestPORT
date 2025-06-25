@@ -986,7 +986,7 @@ footer{
         margin-bottom: 30%;
     }    
     .my-project{
-        margin-bottom: 83rem;
+        margin-bottom: 95rem;
     }
     .project-card{
         flex-direction: column;
@@ -1042,9 +1042,9 @@ footer{
         margin-top: 100px;
         margin-bottom: 50px;
     }
-    .contact-section .section-tittle{
-        top: -40px;
-        left: 25%;
+    .contact-section h1{
+        top: 122px;
+        left: 22%;
     }
     footer h1{
         font-size: 9px;
